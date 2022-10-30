@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class followCar : MonoBehaviour
 {
-    [SerializeField] private GameObject Car;
+    [SerializeField] private GameObject Car; // object added to select to follow the car
     [SerializeField] private Vector3 offset; //add vector to change camera location
     
 
